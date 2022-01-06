@@ -1,0 +1,19 @@
+.search-container {
+    padding: 40px 10vw;
+    width: 100%;
+}
+
+.search-container p {
+    font-size: 20px;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 80px;
+    height: auto;
+    margin-bottom: 40px;
+
+
+
+}

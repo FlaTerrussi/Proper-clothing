@@ -1,0 +1,175 @@
+@media (max-width: 840px) {
+
+    section, header, footer {
+        overflow-x: hidden;
+    }
+
+    /* NAVBAR */
+  
+   
+
+  .menu {
+      display: block;
+      cursor: pointer;
+      margin: auto;
+      margin-left: 30px;
+      justify-content: center;
+      padding: 10px 10vw; 
+    
+  }
+  
+  #search-icon {
+      display: block;
+      cursor: pointer;
+      
+  }
+
+  #menu-icon {
+      font-size: 20px;
+  }
+
+  /* js classes */
+
+  .display-none {
+      display: none;
+  }
+
+  .menu-top {
+      margin-top: 30px;
+  }
+
+  /* // */
+
+  .search {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      padding: 10px 10vw;
+      
+    
+  }
+
+  .search-btn, .search-a {
+      font-size: 10px;
+      margin: 0;
+  }
+
+  .navbar {
+      position: relative;
+      
+      
+  }
+
+ 
+  
+  .links-container {
+      position: absolute;
+      background: var(--color-white);
+      padding: 0 10vw;
+      transition: .5s;
+      display: table;
+      transform: translateX(-100%);
+      transition: all .5s;
+    
+    
+  }
+
+  .link-item {
+      margin: 10px 0;
+      margin-left: 10px;
+
+
+  }
+
+  #menu:checked ~ .links-container {
+      display: table;
+      transform: translateX(0);
+      
+  }
+
+
+  /* FOOTER */
+
+
+  .footer-content {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-ul-container {
+    width: 90%;
+  
+}
+
+.footer-content .logo {
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+   
+}
+
+
+.category {
+  display: table;
+  
+  
+}
+
+
+
+.category li {
+    margin: 5px;
+}
+
+/* PRODUCT DETAILS */
+
+.image-slider {
+    height: 400px;
+    width: 90%;
+}
+
+.size-radio-btn {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    line-height: 70px;
+   
+}
+
+
+
+
+    
+}
+
+
+@media (max-width: 1020px) {
+    .category {
+        display: table;
+      }
+    
+    
+}
+
+@media (max-width: 1270px) {
+
+    /* PRODUCR DETAILS */
+
+    .product-details {
+        justify-content: center;
+        display: inline-block;
+        margin: auto;
+        
+
+    }
+
+    .image-slider, .details {
+        margin: 30px auto;
+    }
+
+    .details {
+        width: 80%;
+    }
+    
+}
