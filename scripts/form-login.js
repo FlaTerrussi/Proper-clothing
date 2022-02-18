@@ -6,7 +6,7 @@ const logo = document.querySelector('.logo');
 
 
 logo.addEventListener('click', () => {
-    window.location.href = "index.html";
+    window.location.href = "/index.html";
 });
 
 submitBtn.addEventListener('click', () => {
